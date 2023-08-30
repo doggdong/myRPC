@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o -o /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider   -L/home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib  -Wl,-rpath,/home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib:/usr/local/lib /usr/local/lib/libprotobuf.so -lpthread 
