@@ -32,6 +32,6 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 link_directories(/home/dog/Downloads/code/muduo/build/release-install-cpp11/lib)
 
 # src包含了mprpc框架所有的相关代码
-# add_subdirectory(src)
+add_subdirectory(src)
 # example包含了mprpc框架使用的示例代码
 add_subdirectory(example)

@@ -1,5 +1,25 @@
 [
 {
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcheader.pb.cc",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/mprpcapplication.cpp",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/mprpcapplication.cpp"
+},
+{
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/mprpc.dir/mprpcconfig.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/mprpcconfig.cpp",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/mprpcconfig.cpp"
+},
+{
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/mprpc.dir/rpcprovider.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcprovider.cpp",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcprovider.cpp"
+},
+{
   "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/callee",
   "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/provider.dir/userservice.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp",
   "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp"

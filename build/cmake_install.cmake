@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src/cmake_install.cmake")
   include("/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/cmake_install.cmake")
 
 endif()

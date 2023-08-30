@@ -101,6 +101,9 @@ void RpcProvider::OnConnection(const muduo::net::TcpConnectionPtr &conn)
     }
 }
 
+
+// protobuf和json不同,无法直接获得header的大小
+// 因为protobuf的header会因为存储数据的不同而大小不同
 /*
 在框架内部，RpcProvider和RpcConsumer协商好之间通信用的protobuf数据类型
 service_name method_name args    定义proto的message类型，进行数据头的序列化和反序列化

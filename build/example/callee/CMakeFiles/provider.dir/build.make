@@ -108,6 +108,7 @@ provider_EXTERNAL_OBJECTS =
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider: example/callee/CMakeFiles/provider.dir/userservice.cpp.o
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider: example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider: example/callee/CMakeFiles/provider.dir/build.make
+/home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider: /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider: /usr/local/lib/libprotobuf.so
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider: example/callee/CMakeFiles/provider.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/dog/Documents/code/cpp_learning/mprpc/myRPC/bin/provider"
