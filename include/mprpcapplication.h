@@ -5,7 +5,7 @@
 // #include "mprpccontroller.h"
 
 // mprpc框架的基础类，负责框架的一些初始化操作
-// 单例模式
+// 单例模式,读入test.config文件,设置端口号
 class MprpcApplication
 {
 public:
