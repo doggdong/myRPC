@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/callee",
-  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -g -o CMakeFiles/provider.dir/userservice.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/provider.dir/userservice.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp",
   "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp"
 },
 {
   "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/callee",
-  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc",
   "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc"
 }
 ]

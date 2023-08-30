@@ -1,6 +1,9 @@
 #include<iostream>
 #include <string>
 #include "user.pb.h"
+// protoc 命令运行后 pb.h pb.cc中会生成两个接口
+// UserServiceRpc 和 UserServiceRpc_stub
+// 一个用在服务端的代理,另一个用在客户端代理
 class UserService : public fixbug::UserServiceRpc{
 public:
 

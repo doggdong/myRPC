@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example
+CXX_INCLUDES = -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include
 
 CXX_FLAGS = -g
 
