@@ -4,10 +4,10 @@ set(SRC_LIST
     mprpcconfig.cpp 
     rpcprovider.cpp 
     rpccostumer.cpp
+    zookeeperutil.cpp
     # mprpccontroller.cpp
     # logger.cpp
-    # zookeeperutil.cpp
     )
 add_library(mprpc ${SRC_LIST})
 # target_link_libraries(mprpc muduo_net muduo_base pthread zookeeper_mt)
-target_link_libraries(mprpc muduo_net muduo_base pthread)
+target_link_libraries(mprpc muduo_net muduo_base pthread zookeeper_mt)

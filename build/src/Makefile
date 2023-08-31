@@ -250,6 +250,30 @@ rpcprovider.cpp.s:
 	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcprovider.cpp.s
 .PHONY : rpcprovider.cpp.s
 
+zookeeperutil.o: zookeeperutil.cpp.o
+.PHONY : zookeeperutil.o
+
+# target to build an object file
+zookeeperutil.cpp.o:
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
+.PHONY : zookeeperutil.cpp.o
+
+zookeeperutil.i: zookeeperutil.cpp.i
+.PHONY : zookeeperutil.i
+
+# target to preprocess a source file
+zookeeperutil.cpp.i:
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.i
+.PHONY : zookeeperutil.cpp.i
+
+zookeeperutil.s: zookeeperutil.cpp.s
+.PHONY : zookeeperutil.s
+
+# target to generate assembly for a file
+zookeeperutil.cpp.s:
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.s
+.PHONY : zookeeperutil.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,6 +298,9 @@ help:
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"
+	@echo "... zookeeperutil.o"
+	@echo "... zookeeperutil.i"
+	@echo "... zookeeperutil.s"
 .PHONY : help
 
 
