@@ -3,7 +3,7 @@ set(SRC_LIST
     mprpcapplication.cpp  
     mprpcconfig.cpp 
     rpcprovider.cpp 
-    # mprpcchannel.cpp
+    rpccostumer.cpp
     # mprpccontroller.cpp
     # logger.cpp
     # zookeeperutil.cpp

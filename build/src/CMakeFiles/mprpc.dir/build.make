@@ -125,12 +125,27 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpcprovider.cpp.s"
 	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcprovider.cpp -o CMakeFiles/mprpc.dir/rpcprovider.cpp.s
 
+src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o: /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp
+src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o: src/CMakeFiles/mprpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o"
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o -MF CMakeFiles/mprpc.dir/rpccostumer.cpp.o.d -o CMakeFiles/mprpc.dir/rpccostumer.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp
+
+src/CMakeFiles/mprpc.dir/rpccostumer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/rpccostumer.cpp.i"
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp > CMakeFiles/mprpc.dir/rpccostumer.cpp.i
+
+src/CMakeFiles/mprpc.dir/rpccostumer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpccostumer.cpp.s"
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp -o CMakeFiles/mprpc.dir/rpccostumer.cpp.s
+
 # Object files for target mprpc
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
 "CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" \
-"CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
+"CMakeFiles/mprpc.dir/rpcprovider.cpp.o" \
+"CMakeFiles/mprpc.dir/rpccostumer.cpp.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
@@ -139,9 +154,10 @@ mprpc_EXTERNAL_OBJECTS =
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
+/home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library /home/dog/Documents/code/cpp_learning/mprpc/myRPC/lib/libmprpc.a"
 	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 

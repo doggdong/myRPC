@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/mprpcapplication.cpp" "src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.d"
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/mprpcconfig.cpp" "src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.d"
+  "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp" "src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o.d"
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcheader.pb.cc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcprovider.cpp" "src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.d"
   )

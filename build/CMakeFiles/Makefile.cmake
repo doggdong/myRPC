@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.0/CMakeSystem.cmake"
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/CMakeLists.txt"
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/CMakeLists.txt"
+  "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/caller/CMakeLists.txt"
   "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/CMakeLists.txt"
   "/opt/cmake-3.24.0/cmake-3.24.0-linux-x86_64/share/cmake-3.24/Modules/CMakeCInformation.cmake"
   "/opt/cmake-3.24.0/cmake-3.24.0-linux-x86_64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
@@ -54,10 +55,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/callee/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "example/caller/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   "example/callee/CMakeFiles/provider.dir/DependInfo.cmake"
+  "example/caller/CMakeFiles/costumer.dir/DependInfo.cmake"
   )

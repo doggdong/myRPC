@@ -8,8 +8,8 @@
 #include <unistd.h>
 #include <errno.h>
 #include "mprpcapplication.h"
-#include "mprpccontroller.h"
-#include "zookeeperutil.h"
+// #include "mprpccontroller.h"
+// #include "zookeeperutil.h"
 
 /*
 header_size + service_name method_name args_size + args
@@ -84,7 +84,7 @@ void RpcCostumer::CallMethod(const google::protobuf::MethodDescriptor* method,
     // 读取配置文件rpcserver的信息
     std::string ip = MprpcApplication::GetInstance().GetConfig().Load("rpcserverip");
     uint16_t port = atoi(MprpcApplication::GetInstance().GetConfig().Load("rpcserverport").c_str());
-    
+
     // // rpc调用方想调用service_name的method_name服务，需要查询zk上该服务所在的host信息
     // ZkClient zkCli;
     // zkCli.Start();
@@ -147,7 +147,7 @@ void RpcCostumer::CallMethod(const google::protobuf::MethodDescriptor* method,
     // std::string response_str(recv_buf, 0, recv_size); // bug出现问题，recv_buf中遇到\0后面的数据就存不下来了，导致反序列化失败
     // if (!response->ParseFromString(response_str))
     if (!response->ParseFromArray(recv_buf, recv_size))
-    {
+    {   
         close(clientfd);
         char errtxt[512] = {0};
         sprintf(errtxt, "parse error! response_str:%s", recv_buf);

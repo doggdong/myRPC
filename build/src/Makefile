@@ -178,6 +178,30 @@ mprpcconfig.cpp.s:
 	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.s
 .PHONY : mprpcconfig.cpp.s
 
+rpccostumer.o: rpccostumer.cpp.o
+.PHONY : rpccostumer.o
+
+# target to build an object file
+rpccostumer.cpp.o:
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpccostumer.cpp.o
+.PHONY : rpccostumer.cpp.o
+
+rpccostumer.i: rpccostumer.cpp.i
+.PHONY : rpccostumer.i
+
+# target to preprocess a source file
+rpccostumer.cpp.i:
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpccostumer.cpp.i
+.PHONY : rpccostumer.cpp.i
+
+rpccostumer.s: rpccostumer.cpp.s
+.PHONY : rpccostumer.s
+
+# target to generate assembly for a file
+rpccostumer.cpp.s:
+	cd /home/dog/Documents/code/cpp_learning/mprpc/myRPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpccostumer.cpp.s
+.PHONY : rpccostumer.cpp.s
+
 rpcheader.pb.o: rpcheader.pb.cc.o
 .PHONY : rpcheader.pb.o
 
@@ -241,6 +265,9 @@ help:
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... rpccostumer.o"
+	@echo "... rpccostumer.i"
+	@echo "... rpccostumer.s"
 	@echo "... rpcheader.pb.o"
 	@echo "... rpcheader.pb.i"
 	@echo "... rpcheader.pb.s"

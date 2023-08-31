@@ -20,6 +20,11 @@
   "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpcprovider.cpp"
 },
 {
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/src",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/mprpc.dir/rpccostumer.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/src/rpccostumer.cpp"
+},
+{
   "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/callee",
   "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/provider.dir/userservice.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp",
   "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/callee/userservice.cpp"
@@ -27,6 +32,16 @@
 {
   "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/callee",
   "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc"
+},
+{
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/costumer.dir/calluserservice.cpp.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/caller/calluserservice.cpp",
+  "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/caller/calluserservice.cpp"
+},
+{
+  "directory": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/include -I/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example -I/home/dog/Downloads/code/muduo/build/release-install-cpp11/include -g -o CMakeFiles/costumer.dir/__/user.pb.cc.o -c /home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc",
   "file": "/home/dog/Documents/code/cpp_learning/mprpc/myRPC/example/user.pb.cc"
 }
 ]
