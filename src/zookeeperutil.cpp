@@ -43,6 +43,9 @@ void ZkClient::Start()
 	网络I/O线程  pthread_create  poll
 	watcher回调线程 pthread_create
 	*/
+    // 文档中表示init是异步方法,不一定每次调用都成功
+    // 所以设置信号量,以及一个watcher函数指针
+    // 如果调用不成功就阻塞, zookeeper会自动重新调用zookeeper_init多次,global_watcher检测到回复正确就释放信号量
     m_zhandle = zookeeper_init(connstr.c_str(), global_watcher, 30000, nullptr, nullptr, 0);
     if (nullptr == m_zhandle) 
     {
