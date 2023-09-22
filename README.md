@@ -86,19 +86,19 @@ protobuf会针对定义的数据类型生成两个类，
 7. 发布rpc方法
 8. CMAKE
     	1. 设置可执行文件输出路径
-        	set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin}
+            	`set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin}`
     	2. 设置动态库静态库输出路径
-      set(LABRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib}
+          `set(LABRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib}`
     	3. 设置 .h 文件搜索路径 
-      include_directories(${PROJECT_SOURCE_DIR}/src/include)
+          `include_directories(${PROJECT_SOURCE_DIR}/src/include)`
     	4. 设置 库文件搜索路径
-      link_directories(${PROJECT_SOURCE_DIR}/lib)
+          `link_directories(${PROJECT_SOURCE_DIR}/lib)`
     	5. 添加子文件(子文件内部需要有CMakeLists)
-      add_subdirctrory()
+          `add_subdirctrory()`
     	6. 设置将程序生成库文件
-      aux_source_directory(. SRC_LIST)
-      set(SRC_LIST xxx.cc xxx.cc )
-      add_library(mprpc ${SRC_LIST})
+          `a`ux_source_directory(. SRC_LIST)`
+          `set(SRC_LIST xxx.cc xxx.cc )`
+          add_library(mprpc ${SRC_LIST})`
 
 Muduo 的使用
 	1. 设置地址 muduo::net::InetAddress address(ip, port)
