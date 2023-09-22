@@ -15,7 +15,7 @@ protobuf会针对定义的数据类型生成两个类，
    userinfo -> local method -> respond
    ```
 
-   
+   ![项目代码交互图](/home/dog/Documents/code/cpp_learning/mprpc/myRPC/项目代码交互图.png)
 
 ## 服务端代码编写:
 
@@ -37,6 +37,7 @@ protobuf会针对定义的数据类型生成两个类，
 业务端直接调用protobuf生成的接口, 接口底层调用了callMethod方法,是个纯虚函数
 框架端实现callMethod函数,实现方法名 参数的序列化和网络发送, 以及reponse的反序列化
 客户端rpcCostumer：多了一个channel类型，客户端的callMethod需要借助channel这个接口（服务端的callmethod是借助了服务端new的代理类来实现的）
+
 - 服务端根据代理模式，写了框架和本地函数的交互业务，为此新建了rpcprovider（管理多个代理）类和 userService（一个代理）类，通过service实现callMethod来调用函数
 - 客户端也有callMethod接口，相应也需要写一个代理类（继承rpcchannel接口，代理客户端的请求）
 - option cc_generic_servies = true; 表示生成c++的service类和rpc方法
